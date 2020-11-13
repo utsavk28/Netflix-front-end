@@ -9,8 +9,10 @@ body {
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     text-align: center;
     background-blend-mode:darken;
-
 }
+
+
+/* ********************Landing Page************************* */
 
 .header1 {
     width: 100vw;
@@ -41,11 +43,10 @@ body {
 }
 
 .logo {
-    width: 15%;
-    height: 15%;
+    width:220px;
     position: absolute;
-    left:2vw;
-    top: -2vh;
+    left:0.9vw;
+    top: -3vh;
 }
 
 .input-email {
@@ -90,8 +91,10 @@ body {
 
 .x-content1-1 {
     text-align: left;
-    width: 55%;
+    width: 50%;
     background-color: black;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .container {
@@ -99,32 +102,30 @@ body {
 }
 
 .x-content-1-1-1 {
-    position: absolute;
-    top:25%;
-    left:5%
+    padding-top: 12vh;
+    padding-left:25vw;
+    padding-right: 5vw;
 }
 
 .x-content1-2 {
-    width: 45%;
+    width: 50%;
     background-color: black;
 }
 
 .x-content1-2-gif {
-    position: absolute;
-    left: 57.5vw;
+    padding-top: 3vh;
     height:40vh;
+    padding-right: 25vw;
 }
 
 .x-content2-2 {
-    width: 45%;
+    width: 50%;
     background-color: black;
 }
 
 .x-content2-2-gif {
-    position: absolute;
-    height:35vh;
-    left:10vw;
-    
+    height:40vh;
+    padding-left: 12.5vw;
 }
 
 .x-content1-head {
@@ -133,9 +134,9 @@ body {
 }
 
 .x-content-1-2-1 {
-    position: absolute;
-    top:25%;
-    left:55%
+    padding-top: 12vh;
+    padding-right:25vw;
+    padding-left: 2vw;
 }
 
 
@@ -193,6 +194,12 @@ body {
     background-color: grey;
 }
 
+footer {
+    margin-top: 1vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding-bottom: 50px;
+}
+
 table {
     text-align: left;
     padding-top: 2%;
@@ -223,4 +230,91 @@ td {
     padding-left: 10%;
     margin-top: 2vh;
     margin-bottom: 5vh;
+}
+ 
+
+/* ****************************SignIn Page*******************************************  */
+
+
+.login-page-container {
+    position: absolute;
+    width: 100vw;
+    height: 100;
+    background-image: url("./assets/images/Netflix-Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sign-in-form {
+    border-radius: 5px;
+    text-align: left;
+    margin: 0 auto -236px;
+    max-width: 325px;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin: 0 auto;
+    padding: 0 5%;
+    padding: 60px 68px 40px;
+    margin-bottom: 90px;
+    margin-top: 90px;
+    color:#b3b3b3;
+    padding-bottom: 150px;
+}
+
+.signin-heading {
+    padding-bottom: 30px;
+    color:white;
+}
+.signin-input-form {
+    width: 100%;
+    height: 50px;
+    color:white;
+    background-color: #333;
+    margin-bottom: 4%;
+    border-radius: 5px;
+    border: 0px;
+} 
+
+.sign-in-form-btn {
+    background-color: red;
+    margin-top: 7.5%;
+    margin-left: 1%;
+    font-weight: 700;
+    font-size: 125%;
+}
+
+::placeholder {
+    padding:20px;
+    color:#b3b3b3;
+    font-size: 120%;
+}
+
+.rem-help-container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.help-container {
+    position: relative;
+    left: 37.5%;
+}
+
+.login-with-facebook {
+    text-decoration: none;
+    color:#b3b3b3;
+}
+
+.new-netflix-div {
+    display: flex;
+    margin-top: 10px;
+}
+
+.sign-up-now {
+    text-decoration: none;
+    padding-left: 2px;
+    color:white;
+}
+
+.recaptcha {
+    font-size: 90%;
+    margin-top: 10px;
 }

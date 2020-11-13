@@ -8,8 +8,8 @@ function XContent2(props) {
         </div>
         <div className="x-content1-1">
             <div className="x-content-1-2-1">
-                <h1 className="x-content1-head">Download your shows<br></br> to watch offline.</h1>
-                <h2>Save your favourites easily and always have<br></br> something to watch.</h2>
+                <h1 className="x-content1-head">Download your shows to watch offline.</h1>
+                <h2>Save your favourites easily and always have something to watch.</h2>
             </div>
         </div>
 

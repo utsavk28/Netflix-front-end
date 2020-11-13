@@ -6,7 +6,7 @@ function XContent3(props) {
         <div className = "x-content1-1">
             <div className="x-content-1-1-1">
             <h1 className = "x-content1-head">Watch everywhere.</h1>
-            <h2>Stream unlimited movies and TV shows on<br></br> your phone, tablet, laptop, and TV.</h2>
+            <h2>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h2>
             </div>
         </div>
         <div className="x-content1-2">
