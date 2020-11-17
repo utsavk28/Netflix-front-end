@@ -5,10 +5,10 @@
 
 body {
     background-color: #222222;
-    color:white;
-    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-align: center;
-    background-blend-mode:darken;
+    background-blend-mode: darken;
 }
 
 
@@ -24,7 +24,7 @@ body {
 
 .header-content {
     position: relative;
-    top:25vh;
+    top: 25vh;
 }
 
 .header-content h1 {
@@ -43,9 +43,9 @@ body {
 }
 
 .logo {
-    width:220px;
+    width: 220px;
     position: absolute;
-    left:0.9vw;
+    left: 0.9vw;
     top: -3vh;
 }
 
@@ -63,20 +63,22 @@ body {
     font-size: 1.75em;
 }
 
-
 .Sign-btn-container {
     position: absolute;
-    left: 88vw;
-    top: 3vh;    
+    right: 4.5vw;
+    top: 3vh;
+    border-radius: 0px;
+    border: 0px;
 }
 
-.Sign-btn{
-    width: 100px;
-    height: 40px;
+.Sign-btn {
+    width: 90px;
+    height:35px;
     background-color: #e50914;
     color: white;
-    font-size: 1.5em;
-    border-radius: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 0px;
 }
 
 .x-content1 {
@@ -103,7 +105,7 @@ body {
 
 .x-content-1-1-1 {
     padding-top: 12vh;
-    padding-left:25vw;
+    padding-left: 25vw;
     padding-right: 5vw;
 }
 
@@ -114,7 +116,7 @@ body {
 
 .x-content1-2-gif {
     padding-top: 3vh;
-    height:40vh;
+    height: 40vh;
     padding-right: 25vw;
 }
 
@@ -124,7 +126,7 @@ body {
 }
 
 .x-content2-2-gif {
-    height:40vh;
+    height: 40vh;
     padding-left: 12.5vw;
 }
 
@@ -135,10 +137,9 @@ body {
 
 .x-content-1-2-1 {
     padding-top: 12vh;
-    padding-right:25vw;
+    padding-right: 25vw;
     padding-left: 2vw;
 }
-
 
 .Faq-container {
     width: 100vw;
@@ -153,7 +154,6 @@ body {
     padding-bottom: 3.5%;
     font-size: 350%;
 }
-
 
 .faq-container {
     position: relative;
@@ -187,7 +187,6 @@ body {
     margin-top: 1vh;
     margin-left: 15vw;
     margin-right: 15vw;
-
     padding-top: 2vh;
     font-size: 150%;
     width: 68vw;
@@ -207,21 +206,21 @@ table {
 }
 
 td {
-    padding-right : 5%;
+    padding-right: 5%;
     padding-top: 10px;
     width: 10%;
 }
 
 .con-num {
     text-align: left;
-    padding-left:10%;
+    padding-left: 10%;
     padding-top: 50px;
 }
 
 .lang-select {
     text-align: left;
     position: relative;
-    left:-35%;
+    left: -35%;
     margin-top: 2vh;
 }
 
@@ -231,10 +230,9 @@ td {
     margin-top: 2vh;
     margin-bottom: 5vh;
 }
- 
+
 
 /* ****************************SignIn Page*******************************************  */
-
 
 .login-page-container {
     position: absolute;
@@ -256,23 +254,24 @@ td {
     padding: 60px 68px 40px;
     margin-bottom: 90px;
     margin-top: 90px;
-    color:#b3b3b3;
+    color: #b3b3b3;
     padding-bottom: 150px;
 }
 
 .signin-heading {
     padding-bottom: 30px;
-    color:white;
+    color: white;
 }
+
 .signin-input-form {
     width: 100%;
     height: 50px;
-    color:white;
+    color: white;
     background-color: #333;
     margin-bottom: 4%;
     border-radius: 5px;
     border: 0px;
-} 
+}
 
 .sign-in-form-btn {
     background-color: red;
@@ -283,8 +282,8 @@ td {
 }
 
 ::placeholder {
-    padding:20px;
-    color:#b3b3b3;
+    padding: 20px;
+    color: #b3b3b3;
     font-size: 120%;
 }
 
@@ -300,7 +299,7 @@ td {
 
 .login-with-facebook {
     text-decoration: none;
-    color:#b3b3b3;
+    color: #b3b3b3;
 }
 
 .new-netflix-div {
@@ -311,10 +310,439 @@ td {
 .sign-up-now {
     text-decoration: none;
     padding-left: 2px;
-    color:white;
+    color: white;
 }
 
 .recaptcha {
     font-size: 90%;
     margin-top: 10px;
+}
+
+
+/* ****************************Browse Page*******************************************  */
+
+.browse-container {
+    padding-top: 35vh;
+}
+
+.browse1-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20vw;
+}
+
+.browse-heading {
+    font-weight: lighter;
+    font-size: 3.5vw;
+    padding-bottom: 2vh;
+}
+
+.browse-img {
+    height: 10vw;
+    width: 10vw;
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 84px;
+    min-width: 84px;
+    box-sizing: border-box;
+    position: relative;
+    background-size: cover;
+    background-color: #333;
+    border-radius: 4px;
+    border: none;
+}
+
+.profile-browse {
+    padding-left: 2vw;
+}
+
+.manage-prof-container {
+    border: 1px solid white;
+    margin: 0% 40%;
+    margin-top: 6vh;
+    padding: 0.5% 1%;
+    font-size: 100%;
+}
+
+
+/* *********************NavBar*************** */
+
+.navbar {
+    display: flex;
+    text-align: left;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.navbar.active {
+    background-color: black;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin-top: 25px;
+    font-size: 12.5px;
+}
+
+.navbar img {
+    width: 100px;
+    padding-left: 10px;
+}
+
+.navbar li {
+    padding-left: 25px;
+}
+
+.right {  
+    position: absolute;  
+    right: 0;  
+    top: 0;
+    float: right;
+    padding-right: 25px;
+}
+
+/* **********************main page************************* */
+.main-page-content {
+    width: 100vw;
+    height: 80vh;
+    
+}
+
+.main-page-content img{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    width: 100vw;
+    height: 90vh;
+
+}
+
+.show-name {
+    position: absolute;
+    top:50vh;
+    left: 7.5vw;
+    font-size: 80px;
+}
+
+.play-btn {
+    position: absolute;
+    top:60vh;
+    left: 5.5vw;
+    width: 10vw;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.more-info-btn {
+    position: absolute;
+    top:60vh;
+    left: 16.5vw;
+    width: 15vw;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.music-btn {
+    position: absolute;
+    top:62.5vh;
+    right: 10vw;
+    width: 3vw;
+    height: 3vw;
+    font-weight: bold;
+    font-size: 100%;
+    border-radius: 50px;
+}
+
+.age-col {
+    background-color: rgba(51,51,51,.6);
+    border-left: 5px solid white;
+    position: absolute;
+    top:62vh;
+    right: 0;
+    width: 8vw;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.whole-card-container {
+    position: flex;
+    text-align: left;
+    
+}
+
+.card-container {
+    display: flex;
+    margin-bottom: 5vh;
+  }
+
+.left-right-sign {
+    text-align: center;
+    padding-top: 7.5%;
+    width: 2.5%;
+
+}
+  
+
+.card {
+    position: relative;
+    display: block;
+    flex: 1 1 0px;
+    transition: transform 500ms;
+  }
+
+.card img {
+    display: block;
+    max-width: 100%;
+}  
+
+
+.card-hover-panel {
+    display: flex;
+}
+
+
+
+/* ********************User Profile*************************** */
+.user-profile {
+    padding-top: 2vh;
+    text-align: left;
+    position: absolute;
+    right: 0vw;
+    top:4.5vh;
+    background-color: black;
+    width: 175px;
+    margin-right: 25px;
+}
+.user-profile p:hover {
+    text-decoration: underline;
+
+}
+
+.user-profile a:hover {
+    text-decoration: underline;
+    
+}
+
+.user-profile p {
+    padding: 15px 0px 0px 5px;
+}
+
+.user-profile-1 {
+    display: flex;
+    padding: 5px 0px;
+}
+
+.user-profile-2 {
+    display: flex;
+    padding: 5px 0px;
+}
+.user-profile-3 {
+    display: flex;
+    padding: 5px 0px;
+}
+
+.user-profile img {
+    width: 50px;
+    border-radius: 5px;
+} 
+
+.user-profile-container2  {
+    border-top: 1px solid white;
+}
+
+
+.user-profile-container2 li {
+    padding-bottom: 10px;
+    display: inline;
+}
+
+/* ***********************registration-page****************** */
+
+.registration-page-1 {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.registration-page-1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sign-btn {
+    position: absolute;
+    top:.5vh;
+    right: 2.5vw;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.reg-header {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+    padding-top: 85px;
+}
+
+.reg-main-con {
+    margin-top: 15vh;
+    margin-left: 35vw;
+    width: 400px;  
+    color: black;  
+}
+.reg-main-con img{
+    width: 250px;
+}
+
+.reg-con {
+    padding-top: 35px;
+}
+.reg-con p {
+    font-size: 80%;
+    padding-bottom: 5px;
+}
+
+.reg-con-text {
+    padding: 5px;
+    margin: 0px 15px;
+    padding-top: 12.5px;
+    font-size: 125%;
+}
+
+.reg-con button {
+    margin-top: 15px;
+    width: 350px;
+    height: 50px;
+    background-color: rgb(230, 0, 0);
+    color: white;
+    font-size: 125%;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.reg-main-con-x {
+    margin-top: 0vh;
+    margin-left: 35vw;
+    width: 400px;  
+    color: black;  
+}
+
+.reg-con-x {
+    padding-top: 35px;
+    text-align: left;
+}
+.reg-con-x p {
+    font-size: 80%;
+    padding-bottom: 5px;
+}
+
+.reg-con-text-x {
+    padding-top: 12.5px;
+    font-size: 125%;
+}
+
+.reg-con-x button {
+    margin-top: 15px;
+    width: 375px;
+    height: 50px;
+    background-color: rgb(230, 0, 0);
+    color: white;
+    font-size: 125%;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.reg-con-x input {
+    width: 375px;
+    height: 50px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.reg-main-con-y {
+    margin-top: 10vh;
+    margin-left: 35vw;
+    width: 400px;  
+    color: black; 
+
+}
+
+.reg-main-con-y img {
+    width: 60px;
+    padding-bottom: 25px;
+}
+
+.reg-con-y ul {
+    padding-top: 25px;
+    padding-left: 50px;
+    list-style-type: none;
+    text-align: left;
+}
+
+.reg-con-y li {
+    padding-bottom: 10px;
+    
+}
+
+.reg-con-y button {
+    margin-top: 15px;
+    width: 325px;
+    height: 50px;
+    background-color: rgb(230, 0, 0);
+    color: white;
+    font-size: 125%;
+    border: 0px;
+    border-radius: 5px;
+}
+
+
+/* *******************Logout Page************************ */
+
+.logout-page {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    background-image: url("./assets/images/Logout-Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logout-content {
+    text-align: left;
+    position: absolute;
+    top:20vh;
+    left: 35vw;
+    padding: 35px;
+    background-color: white;
+    color: rgb(44, 23, 23);
+    width: 350px;
+}
+
+.logout-content p {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.logout-content button {
+    margin: 10px 0px;
+    width: 350px;
+    height: 50px;
+    color: white;
+    font-size: 125%;
+    border: 0px;
+    border-radius: 5px;
+    background-color: 	rgb(0, 128, 255);
+}
+
+.profile-browse p {
+    color: white;
 }

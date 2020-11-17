@@ -4,7 +4,7 @@ import XContent2 from "./LandingPageComponenets/XContent2"
 import XContent3 from "./LandingPageComponenets/XContent3"
 import FAQ from "./LandingPageComponenets/FAQ"
 import Footer from "./LandingPageComponenets/Footer"
-import SignIn from "./LandingPageComponenets/SignIn"
+import SignInBtn from "./CommonComponents/SignInBtn"
 import HeaderContent from "./LandingPageComponenets/HeaderContent"
 import Logo from "./CommonComponents/Logo"
 
@@ -12,7 +12,7 @@ function LandingPage() {
     return <div className="main-file">
         <header className="header1">
             <Logo/>
-            <SignIn />
+            <SignInBtn />
             <HeaderContent />
         </header>
         <XContent1 gifUrl="./assets/gif/tv.gif" />

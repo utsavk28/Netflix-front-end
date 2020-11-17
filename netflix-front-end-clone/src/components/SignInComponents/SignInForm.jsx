@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 function SignInForm() {
     return <div className="sign-in-form">
@@ -6,7 +7,9 @@ function SignInForm() {
         <input className="signin-input-form" placeholder="Email or Phone Number" type="email" ></input>
         <input className="signin-input-form"
             type="text" placeholder="Password"></input>
+        <Link to = "/browse" >
         <button className="signin-input-form sign-in-form-btn" >Sign In</button>
+        </Link>
         <div className="rem-help-container">
             <div className="rem-container">
                 <input type="checkbox" id="remembermecheckbox" name="Remember Me" value="rememberme"></input>
